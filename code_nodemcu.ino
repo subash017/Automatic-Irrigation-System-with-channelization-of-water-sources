@@ -29,7 +29,7 @@ while (WiFi.status() != WL_CONNECTED)
   Serial.println(WiFi.localIP());
   server.on("/", []()
   {
-    page = "<html><head><title>Embedded System project</title></head><style type=\"text/css\">";
+    page = "<html><head><title>Control System project</title></head><style type=\"text/css\">";
     page += "table{border-collapse: collapse;}th {background-color:  green ;color: white;}table,td {border: 4px solid black;font-size: x-large;";
     page += "text-align:center;border-style: groove;border-color: rgb(255,0,0);}</style><body><center>";
     page += "<h1>Smart Irrigation System</h1><br><br><table style=\"width: 1200px;height: 450px;\"><tr>";
